@@ -66,7 +66,7 @@ class Owner
   end
 
   def list_pets
-   fish = @pets.fishes.size
+   fish = @pets[:fishes].size
 binding.pry
-  end  
+  end
 end
