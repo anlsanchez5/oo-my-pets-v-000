@@ -58,11 +58,15 @@ class Owner
   end
 
   def sell_pets
-    @pets.collect do |species, pet_array| 
+    @pets.collect do |species, pet_array|
       pet_array.collect {|pet| pet.mood = "nervous"}
     end
 
     @pets.clear
   end
 
+  def list_pets
+   fish = @pets.fishes.size
+binding.pry
+  end  
 end
