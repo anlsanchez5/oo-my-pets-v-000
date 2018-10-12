@@ -69,6 +69,6 @@ class Owner
    fish = @pets[:fishes].size
    cats = @pets[:cats].size
    dogs = @pets[:dogs].size
-   puts "I have #{fish} fish, #{dogs} dog(s), #{cats} cat(s)."
+   return "I have #{fish} fish, #{dogs} dog(s), #{cats} cat(s)."
   end
 end
